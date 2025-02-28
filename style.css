@@ -99,3 +99,18 @@ form input.operator {
         font-size: 30px;
     }
 }
+
+@media (max-width: 320px) {
+    .calculator {
+        padding: 8px;
+    }
+    .calculator form input {
+        width: 24%;
+        height: 40px;
+        font-size: 14px;
+        margin: 4px;
+    }
+    form .display input {
+        font-size: 25px;
+    }
+}
