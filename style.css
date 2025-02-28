@@ -41,11 +41,15 @@
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
-    font-size: 20px;
-    color: #efff;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
     cursor: pointer;
     margin: 5px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 form .display {
@@ -61,6 +65,9 @@ form .display input {
     font-size: 45px;
     box-shadow: none;
     padding: 10px;
+    background: #1e272e;
+    color: #ffffff;
+    border-radius: 5px;
 }
 
 form input.equal {
@@ -80,7 +87,7 @@ form input.operator {
     .calculator form input {
         width: 23%;
         height: 50px;
-        font-size: 18px;
+        font-size: 20px;
     }
     form .display input {
         font-size: 35px;
@@ -95,7 +102,7 @@ form input.operator {
     .calculator form input {
         width: 24%;
         height: 45px;
-        font-size: 16px;
+        font-size: 18px;
     }
     form .display input {
         font-size: 30px;
@@ -110,7 +117,7 @@ form input.operator {
     .calculator form input {
         width: 25%;
         height: 40px;
-        font-size: 14px;
+        font-size: 16px;
     }
     form .display input {
         font-size: 25px;
@@ -125,7 +132,7 @@ form input.operator {
     .calculator form input {
         width: 26%;
         height: 35px;
-        font-size: 12px;
+        font-size: 14px;
         margin: 4px;
     }
     form .display input {
