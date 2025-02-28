@@ -72,12 +72,13 @@ form input.operator {
 }
 
 /* Responsive Design */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .calculator {
         padding: 15px;
+        max-width: 350px;
     }
     .calculator form input {
-        width: 22%;
+        width: 23%;
         height: 50px;
         font-size: 18px;
     }
@@ -86,12 +87,13 @@ form input.operator {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .calculator {
-        padding: 10px;
+        padding: 12px;
+        max-width: 300px;
     }
     .calculator form input {
-        width: 23%;
+        width: 24%;
         height: 45px;
         font-size: 16px;
     }
@@ -100,17 +102,33 @@ form input.operator {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     .calculator {
-        padding: 8px;
+        padding: 10px;
+        max-width: 280px;
     }
     .calculator form input {
-        width: 24%;
+        width: 25%;
         height: 40px;
         font-size: 14px;
-        margin: 4px;
     }
     form .display input {
         font-size: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .calculator {
+        padding: 8px;
+        max-width: 250px;
+    }
+    .calculator form input {
+        width: 26%;
+        height: 35px;
+        font-size: 12px;
+        margin: 4px;
+    }
+    form .display input {
+        font-size: 22px;
     }
 }
